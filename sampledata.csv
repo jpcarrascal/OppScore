@@ -1,0 +1,254 @@
+id,outcome,importance,satisfaction
+P01,Getting out of bed,5,4
+P02,Getting out of bed,5,5
+P03,Getting out of bed,5,5
+P04,Getting out of bed,5,5
+P05,Getting out of bed,4,3
+P06,Getting out of bed,5,4
+P07,Getting out of bed,5,5
+P08,Getting out of bed,4,4
+P09,Getting out of bed,5,5
+P10,Getting out of bed,3,5
+P11,Getting out of bed,5,5
+P12,Getting out of bed,5,4
+P13,Getting out of bed,5,4
+P14,Getting out of bed,5,5
+P15,Getting out of bed,4,3
+P16,Getting out of bed,5,4
+P17,Getting out of bed,5,5
+P18,Getting out of bed,5,5
+P19,Getting out of bed,5,4
+P20,Getting out of bed,5,5
+P21,Getting out of bed,5,5
+P22,Getting out of bed,5,5
+P23,Getting out of bed,5,5
+P24,Getting out of bed,5,5
+P25,Getting out of bed,5,5
+P01,Postponing vacation,4,4
+P02,Postponing vacation,5,5
+P03,Postponing vacation,4,5
+P04,Postponing vacation,3,4
+P05,Postponing vacation,5,5
+P06,Postponing vacation,5,4
+P07,Postponing vacation,3,3
+P08,Postponing vacation,5,5
+P09,Postponing vacation,5,5
+P10,Postponing vacation,5,4
+P11,Postponing vacation,4,3
+P12,Postponing vacation,5,5
+P13,Postponing vacation,1,2
+P14,Postponing vacation,1,4
+P15,Postponing vacation,4,5
+P16,Postponing vacation,5,3
+P17,Postponing vacation,3,5
+P18,Postponing vacation,5,5
+P19,Postponing vacation,5,4
+P20,Postponing vacation,4,5
+P21,Postponing vacation,3,5
+P22,Postponing vacation,5,2
+P23,Postponing vacation,5,4
+P24,Postponing vacation,4,3
+P25,Postponing vacation,5,5
+P26,Postponing vacation,4,5
+P01,Bug Smashing,5,4
+P02,Bug Smashing,5,5
+P03,Bug Smashing,5,5
+P04,Bug Smashing,4,4
+P05,Bug Smashing,5,5
+P06,Bug Smashing,5,5
+P07,Bug Smashing,5,5
+P08,Bug Smashing,4,4
+P09,Bug Smashing,4,5
+P10,Bug Smashing,5,4
+P11,Bug Smashing,5,5
+P12,Bug Smashing,5,5
+P13,Bug Smashing,4,4
+P14,Bug Smashing,5,4
+P15,Bug Smashing,5,5
+P16,Bug Smashing,5,5
+P17,Bug Smashing,5,4
+P18,Bug Smashing,5,5
+P19,Bug Smashing,5,4
+P20,Bug Smashing,5,5
+P21,Bug Smashing,5,3
+P22,Bug Smashing,5,5
+P23,Bug Smashing,5,5
+P24,Bug Smashing,5,4
+P25,Bug Smashing,5,5
+P26,Bug Smashing,5,5
+P27,Bug Smashing,5,4
+P28,Bug Smashing,5,5
+P29,Bug Smashing,3,5
+P30,Bug Smashing,5,5
+P31,Bug Smashing,4,4
+P01,Fleeing from meetings,5,4
+P02,Fleeing from meetings,5,5
+P03,Fleeing from meetings,5,5
+P04,Fleeing from meetings,5,5
+P05,Fleeing from meetings,4,4
+P06,Fleeing from meetings,5,5
+P07,Fleeing from meetings,5,3
+P08,Fleeing from meetings,4,5
+P09,Fleeing from meetings,5,4
+P10,Fleeing from meetings,4,5
+P11,Fleeing from meetings,5,5
+P12,Fleeing from meetings,3,3
+P13,Fleeing from meetings,3,4
+P14,Fleeing from meetings,5,5
+P15,Fleeing from meetings,5,5
+P16,Fleeing from meetings,5,5
+P17,Fleeing from meetings,5,4
+P18,Fleeing from meetings,5,5
+P19,Fleeing from meetings,5,5
+P01,Brewing coffee,2,3
+P02,Brewing coffee,5,5
+P03,Brewing coffee,5,5
+P04,Brewing coffee,5,5
+P05,Brewing coffee,5,5
+P06,Brewing coffee,5,5
+P07,Brewing coffee,5,4
+P08,Brewing coffee,4,4
+P09,Brewing coffee,3,3
+P10,Brewing coffee,5,4
+P11,Brewing coffee,3,5
+P12,Brewing coffee,5,5
+P13,Brewing coffee,4,4
+P14,Brewing coffee,5,4
+P15,Brewing coffee,5,5
+P16,Brewing coffee,4,4
+P17,Brewing coffee,5,5
+P18,Brewing coffee,5,4
+P19,Brewing coffee,5,5
+P20,Brewing coffee,5,5
+P21,Brewing coffee,5,5
+P22,Brewing coffee,5,5
+P23,Brewing coffee,5,4
+P24,Brewing coffee,5,5
+P25,Brewing coffee,5,5
+P26,Brewing coffee,5,4
+P27,Brewing coffee,5,4
+P28,Brewing coffee,5,5
+P29,Brewing coffee,5,5
+P30,Brewing coffee,4,4
+P01,Discreet napping,2,2
+P02,Discreet napping,4,4
+P03,Discreet napping,5,4
+P04,Discreet napping,3,4
+P05,Discreet napping,5,4
+P06,Discreet napping,4,4
+P07,Discreet napping,5,4
+P08,Discreet napping,5,5
+P09,Discreet napping,5,5
+P10,Discreet napping,3,4
+P11,Discreet napping,4,2
+P12,Discreet napping,3,5
+P13,Discreet napping,5,3
+P14,Discreet napping,3,4
+P15,Discreet napping,1,4
+P16,Discreet napping,3,4
+P17,Discreet napping,3,3
+P18,Discreet napping,2,5
+P19,Discreet napping,2,1
+P20,Discreet napping,5,4
+P21,Discreet napping,5,5
+P22,Discreet napping,5,5
+P23,Discreet napping,4,4
+P01,Free food,2,3
+P02,Free food,4,3
+P03,Free food,5,4
+P04,Free food,5,4
+P05,Free food,4,3
+P06,Free food,4,3
+P07,Free food,5,3
+P08,Free food,4,3
+P09,Free food,3,3
+P10,Free food,3,5
+P11,Free food,5,4
+P12,Free food,4,4
+P13,Free food,5,3
+P14,Free food,4,3
+P15,Free food,5,3
+P16,Free food,4,2
+P17,Free food,4,3
+P18,Free food,3,4
+P19,Free food,5,3
+P20,Free food,4,3
+P21,Free food,4,3
+P22,Free food,5,5
+P23,Free food,3,3
+P24,Free food,5,5
+P25,Free food,3,5
+P26,Free food,3,2
+P27,Free food,5,4
+P28,Free food,5,5
+P29,Free food,4,4
+P01,Avoiding supervisor,5,4
+P02,Avoiding supervisor,5,5
+P03,Avoiding supervisor,5,5
+P04,Avoiding supervisor,5,3
+P05,Avoiding supervisor,5,5
+P06,Avoiding supervisor,1,4
+P07,Avoiding supervisor,4,4
+P08,Avoiding supervisor,4,4
+P09,Avoiding supervisor,4,5
+P10,Avoiding supervisor,5,3
+P01,Writing papers,3,4
+P02,Writing papers,5,5
+P03,Writing papers,5,5
+P04,Writing papers,3,4
+P05,Writing papers,4,3
+P06,Writing papers,5,5
+P07,Writing papers,5,4
+P08,Writing papers,4,5
+P09,Writing papers,5,5
+P10,Writing papers,5,5
+P11,Writing papers,2,4
+P12,Writing papers,5,4
+P13,Writing papers,3,3
+P14,Writing papers,3,3
+P15,Writing papers,5,5
+P16,Writing papers,5,4
+P17,Writing papers,4,1
+P18,Writing papers,5,4
+P19,Writing papers,2,2
+P20,Writing papers,5,5
+P21,Writing papers,3,5
+P01,Spare time,2,1
+P02,Spare time,4,2
+P03,Spare time,4,2
+P04,Spare time,5,2
+P05,Spare time,2,4
+P06,Spare time,5,3
+P07,Spare time,5,1
+P08,Spare time,1,3
+P09,Spare time,5,2
+P10,Spare time,4,3
+P11,Spare time,4,4
+P12,Spare time,5,2
+P13,Spare time,4,3
+P14,Spare time,4,3
+P15,Spare time,5,4
+P16,Spare time,5,2
+P17,Spare time,5,1
+P18,Spare time,5,1
+P19,Spare time,5,3
+P20,Spare time,5,1
+P21,Spare time,3,3
+P22,Spare time,5,5
+P23,Spare time,5,4
+P24,Spare time,5,4
+P25,Spare time,5,4
+P26,Spare time,5,3
+P01,Supervising master students,2,3
+P02,Supervising master students,2,3
+P03,Supervising master students,1,1
+P04,Supervising master students,5,5
+P05,Supervising master students,4,5
+P06,Supervising master students,2,3
+P01,Cleaning the lab,5,5
+P02,Cleaning the lab,5,5
+P03,Cleaning the lab,5,4
+P04,Cleaning the lab,5,5
+P05,Cleaning the lab,5,4
+P06,Cleaning the lab,5,5
+P07,Cleaning the lab,3,5
