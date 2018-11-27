@@ -182,16 +182,16 @@ P26,Free food,3,2
 P27,Free food,5,4
 P28,Free food,5,5
 P29,Free food,4,4
-P01,Avoiding supervisor,5,4
-P02,Avoiding supervisor,5,5
-P03,Avoiding supervisor,5,5
-P04,Avoiding supervisor,5,3
-P05,Avoiding supervisor,5,5
-P06,Avoiding supervisor,1,4
-P07,Avoiding supervisor,4,4
-P08,Avoiding supervisor,4,4
-P09,Avoiding supervisor,4,5
-P10,Avoiding supervisor,5,3
+P01,Hiding from professors,5,4
+P02,Hiding from professors,5,5
+P03,Hiding from professors,5,5
+P04,Hiding from professors,5,3
+P05,Hiding from professors,5,5
+P06,Hiding from professors,1,4
+P07,Hiding from professors,4,4
+P08,Hiding from professors,4,4
+P09,Hiding from professors,4,5
+P10,Hiding from professors,5,3
 P01,Writing papers,3,4
 P02,Writing papers,5,5
 P03,Writing papers,5,5
