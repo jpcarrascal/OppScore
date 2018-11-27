@@ -8,7 +8,7 @@
 # How to use:
 # 1. Format your data as a CSV file. It should have at least 3 columns:
 #    "outcome", "importance" and "satisfaction"
-# 2. You can also customize the file names and column names below to match yours.
+# 2. You can also customize the file names and column names below to match those in yout CSV file.
 #    The script will ignore any extra columns.
 # 3. Run the whole script. Voila.
 #
@@ -17,7 +17,7 @@
 
 # File and column names:
 
-filename <- "data.csv"
+filename <- "sampledata.csv"
 outcomeName <- "outcome"
 impName <- "importance"
 satName <- "satisfaction"
