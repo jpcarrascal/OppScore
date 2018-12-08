@@ -14,6 +14,11 @@
 #
 ######################################################################################################
 
+# threshold above which Importance and Satisfaction are counted as positive and non-neutral
+# It should be the middle point of your scale.
+# E.g., if your scale is 1-5, threshold should be 3. For 1-7 it should be 4, etc.
+
+threshold <- 3
 
 # File and column names:
 
@@ -22,10 +27,6 @@ outcomeName <- "outcome"
 impName <- "importance"
 satName <- "satisfaction"
 
-# threshold: above which Importance and Satisfaction are counted as positive and non-neutral
-# It should be the middle point of your scale, e.g., threshold=3 if your scale is 1-5, 4 for 1-7, etc.
-
-threshold <- 3
 
 # functions:
 op_score <- function(imp, sat) {
