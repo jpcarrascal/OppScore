@@ -33,7 +33,7 @@ op_score <- function(imp, sat) {
   return(imp + max(imp-sat,0) )
 }
 
-count_positive <- function(x, threshold) {
+count_positives <- function(x, threshold) {
   x = na.omit(x)
   return (10* (sum(x>threshold)/length(x)) )
 }
@@ -66,8 +66,8 @@ plotOppScore <- function(values)
 inputData <- read.csv(filename, header = T, sep = ",")
 inputData <- inputData[c(outcomeName,impName, satName)]
 colnames(inputData) <- c("outcome","importance","satisfaction")
-imp <- aggregate(importance~outcome, inputData, count_positive, threshold=threshold)
-sat <- aggregate(satisfaction~outcome, inputData, count_positive, threshold=threshold)
+imp <- aggregate(importance~outcome, inputData, count_positives, threshold=threshold)
+sat <- aggregate(satisfaction~outcome, inputData, count_positives, threshold=threshold)
 values <- merge(x = imp, y = sat, by = "outcome", all = TRUE)
 values$oppscore = op_score(values$importance, values$satisfaction)
 print(values)
