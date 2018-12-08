@@ -22,14 +22,19 @@ outcomeName <- "outcome"
 impName <- "importance"
 satName <- "satisfaction"
 
+# threshold: above which Importance and Satisfaction are counted as positive and non-neutral
+# It should be the middle point of your scale, e.g., threshold=3 if your scale is 1-5, 4 for 1-7, etc.
+
+threshold <- 3
+
 # functions:
 op_score <- function(imp, sat) {
   return(imp + max(imp-sat,0) )
 }
 
-count_four_or_five <- function(x) {
+count_positive <- function(x, threshold) {
   x = na.omit(x)
-  return (10* (sum(x>=4)/length(x)) )
+  return (10* (sum(x>threshold)/length(x)) )
 }
 
 plotOppScore <- function(values)
@@ -60,8 +65,8 @@ plotOppScore <- function(values)
 inputData <- read.csv(filename, header = T, sep = ",")
 inputData <- inputData[c(outcomeName,impName, satName)]
 colnames(inputData) <- c("outcome","importance","satisfaction")
-imp <- aggregate(importance~outcome, inputData, count_four_or_five)
-sat <- aggregate(satisfaction~outcome, inputData, count_four_or_five)
+imp <- aggregate(importance~outcome, inputData, count_positive, threshold=threshold)
+sat <- aggregate(satisfaction~outcome, inputData, count_positive, threshold=threshold)
 values <- merge(x = imp, y = sat, by = "outcome", all = TRUE)
 values$oppscore = op_score(values$importance, values$satisfaction)
 print(values)
