@@ -63,7 +63,7 @@ plotOppScore <- function(values)
 
 # Read the data and run the functions:
 
-inputData <- read.csv(filename, header = T, sep = ",")
+inputData <- read.csv(filename, header = T, sep = ",", fileEncoding="UTF-8-BOM")
 inputData <- inputData[c(outcomeName,impName, satName)]
 colnames(inputData) <- c("outcome","importance","satisfaction")
 imp <- aggregate(importance~outcome, inputData, count_positives, threshold=threshold)
