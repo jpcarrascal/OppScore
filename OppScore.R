@@ -42,10 +42,7 @@ plotOppScore <- function(values)
 {
   grey <- "#AAAAAA"
   par(xpd=F)
-  if( (sum(values$importance<1) > 0) || (sum(values$satisfaction<1) > 0) )
-    lowerLimit <- 0
-  else
-    lowerLimit <- 1
+  lowerLimit <- 0
   plot(NULL, xlim=c(lowerLimit,10), ylim=c(lowerLimit,10), yaxt="n", xaxt="n", xaxs="i", yaxs="i", xlab = "Importance", ylab = "Satisfaction", main="Opportunity Landscape")
   axis(1, at = c(lowerLimit:10), labels=c(lowerLimit:10), cex=1)
   axis(2, at = c(lowerLimit:10), labels=c(lowerLimit:10), cex=1)
@@ -61,7 +58,7 @@ plotOppScore <- function(values)
   text(9.5,3,"Opp>15",col=grey)
   par(xpd=T)
   points(values$importance, values$satisfaction, xlim=c(lowerLimit,10), ylim=c(lowerLimit,10), col=2, pch=19, cex=2)
-  with(values, text(satisfaction~importance, labels = c(1:length(values$outcome)), pos = 2, col=1, srt=0, cex=0.8))
+  with(values, text(satisfaction~importance, labels = c(1:length(values$outcome)), pos = 2, col=1, font=2, srt=0, cex=0.8))
   legend(bg=rgb(0,0,0,0.08),lowerLimit+0.1,9.9, paste(c(1:length(values$outcome)),". ", values$outcome,
          " (",round_df(values$oppscore,2),")",sep=""), cex=0.82, x.intersp=0.0)
 }
