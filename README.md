@@ -2,6 +2,8 @@
 
 Yet another R script for calculating opportunity scores and plotting the Opportunity Map / Landscape.
 
+__UPDATE: OppScore calculation was yielding wrong values! It's fixed now.__
+
 This one does not require anything beyond base R. A sampledata.csv file is included for testing purposes.
 
 How to use:
@@ -11,8 +13,6 @@ How to use:
 5. Run the whole script. Voila.
 
 *_Values above the midpoint parameter (either importance or satisfaction) will be considered positive. This is an important consideration when computing the score. Note that using a scale other than 1-5 deviates from Ulwick's recommendation._
-
-__UPDATE: OppScore calculation was yielding wrong values! It's fixed now.__
 
 # References:
 
