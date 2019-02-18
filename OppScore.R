@@ -14,11 +14,11 @@
 #
 ######################################################################################################
 
-# threshold above which Importance and Satisfaction are counted as positive and non-neutral
-# It should be the middle point of your scale.
+# midpoint: the middle point of your scale, i.e., the value above which Importance and Satisfaction
+# are counted as positive and non-neutral
 # E.g., if your scale is 1-5, threshold should be 3. For 1-7 it should be 4, etc.
 
-threshold <- 3
+midpoint <- 3
 
 # File and column names:
 
@@ -33,9 +33,9 @@ op_score <- function(imp, sat) {
   return(imp + max(imp-sat,0) )
 }
 
-count_positives <- function(x, threshold) {
+count_positives <- function(x, midpoint) {
   x = na.omit(x)
-  return (10* (sum(x>threshold)/length(x)) )
+  return (10* (sum(x>midpoint)/length(x)) )
 }
 
 plotOppScore <- function(values)
@@ -46,7 +46,6 @@ plotOppScore <- function(values)
     lowerLimit <- 0
   else
     lowerLimit <- 1
-  print(lowerLimit)
   plot(NULL, xlim=c(lowerLimit,10), ylim=c(lowerLimit,10), yaxt="n", xaxt="n", xaxs="i", yaxs="i", xlab = "Importance", ylab = "Satisfaction", main="Opportunity Landscape")
   axis(1, at = c(lowerLimit:10), labels=c(lowerLimit:10), cex=1)
   axis(2, at = c(lowerLimit:10), labels=c(lowerLimit:10), cex=1)
@@ -81,11 +80,12 @@ round_df <- function(x, digits) {
 inputData <- read.csv(filename, header = T, sep = ",", fileEncoding="UTF-8-BOM")
 inputData <- inputData[c(outcomeName,impName, satName)]
 colnames(inputData) <- c("outcome","importance","satisfaction")
-imp <- aggregate(importance~outcome, inputData, count_positives, threshold=threshold)
-sat <- aggregate(satisfaction~outcome, inputData, count_positives, threshold=threshold)
+imp <- aggregate(importance~outcome, inputData, count_positives, midpoint=midpoint)
+sat <- aggregate(satisfaction~outcome, inputData, count_positives, midpoint=midpoint)
 values <- merge(x = imp, y = sat, by = "outcome", all = TRUE)
-values$oppscore = op_score(values$importance, values$satisfaction)
+values$oppscore = mapply(op_score, values$importance, values$satisfaction)
 values <- values[order(-values$oppscore),]
+rownames(values) <- NULL
 print(round_df(values, 2))
 plotOppScore(values)
 
