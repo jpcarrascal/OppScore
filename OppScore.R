@@ -62,7 +62,8 @@ plotOppScore <- function(values)
   par(xpd=T)
   points(values$importance, values$satisfaction, xlim=c(lowerLimit,10), ylim=c(lowerLimit,10), col=2, pch=19, cex=2)
   with(values, text(satisfaction~importance, labels = c(1:length(values$outcome)), pos = 2, col=1, srt=0, cex=0.8))
-  legend(bg="transparent",lowerLimit+0.1,9.9, paste(c(1:length(values$outcome)),values$outcome,sep=". "), cex=0.85, x.intersp=0.0)
+  legend(bg=rgb(0,0,0,0.08),lowerLimit+0.1,9.9, paste(c(1:length(values$outcome)),". ", values$outcome,
+         " (",round_df(values$oppscore,2),")",sep=""), cex=0.82, x.intersp=0.0)
 }
 
 # Borrowed from http://jeromyanglim.tumblr.com/post/50228877196/round-numbers-in-data-frame-that-contains-non
