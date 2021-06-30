@@ -9,7 +9,8 @@ This one does not require anything beyond base R. A sampledata.csv file is inclu
 How to use:
 1. Format your data as a CSV file. It should have at least 3 columns: _outcome_, _importance_ and _satisfaction_. Additional columns will be ignored. Here is an example of how your .CSV file should look like (the "subject" column will be ignored):
 
-| subject | __outcome__ | __importance__ | __satisfaction__ |
+| subject | outcome | importance | satisfaction |
+| --- | --- | --- | --- |
 | student1 | Passing exams | 5 | 3 |
 | student2 | Passing exams | 4 | 3 |
 | student3 | Passing exams | 5 | 2 |
