@@ -7,7 +7,20 @@ __UPDATE: OppScore calculation was yielding wrong values! It's fixed now.__
 This one does not require anything beyond base R. A sampledata.csv file is included for testing purposes.
 
 How to use:
-1. Format your data as a CSV file. It should have at least 3 columns: _outcome_, _importance_ and _satisfaction_. You can also customize the        file names and column names in the script to match those in your CSV file. Additional columns will be ignored.
+1. Format your data as a CSV file. It should have at least 3 columns: _outcome_, _importance_ and _satisfaction_. Additional columns will be ignored. Here is an example of how your .CSV file should look like (the "subject" column will be ignored):
+
+| subject | __outcome__ | __importance__ | __satisfaction__ |
+| student1 | Passing exams | 5 | 3 |
+| student2 | Passing exams | 4 | 3 |
+| student3 | Passing exams | 5 | 2 |
+| student1 | Hiding from professors | 4 | 4 |
+| student2 | Hiding from professors | 2 | 1 |
+| student3 | Hiding from professors | 2 | 3 |
+| student1 | Getting submission accepted | 5 | 2 |
+| student2 | Getting submission accepted | 5 | 3 |
+| student3 | Getting submission accepted | 4 | 5 |
+| ... | ... | ... | ...|
+
 3. Optionally, __if your input scale is not 1-5__, modify the _midpoint_ parameter in the script. It should be equal to the middle point of the scale. E.g., for a 1-5 scale _midpoint_ should be 3. If your scale is 1-7, then it should be 4 and so on.
 4. Make sure the data and the script are in the same folder.
 5. Run the whole script. Voila.
