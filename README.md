@@ -22,13 +22,12 @@ How to use:
 | student3 | Getting submission accepted | 4 | 5 |
 | ... | ... | ... | ...|
 
-(*the "subject" column will be ignored)
+_(*the "subject" column will be ignored)_
 
-3. Optionally, __if your input scale is not 1-5__, modify the _midpoint_ parameter in the script. It should be equal to the middle point of the scale. E.g., for a 1-5 scale _midpoint_ should be 3. If your scale is 1-7, then it should be 4 and so on.
+3. Optionally, __if your input scale is not 1-5__, modify the _midpoint_ parameter in the script. It should be equal to the middle point of the scale. E.g., for a 1-5 scale _midpoint_ should be 3. If your scale is 1-7, then it should be 4 and so on. _(Values above the midpoint parameter (either importance or satisfaction) will be considered positive. This is an important consideration when computing the score. Note that using a scale other than 1-5 deviates from Ulwick's recommendation.)_
 4. Make sure the data and the script are in the same folder.
 5. Run the whole script. Voila.
 
-*_Values above the midpoint parameter (either importance or satisfaction) will be considered positive. This is an important consideration when computing the score. Note that using a scale other than 1-5 deviates from Ulwick's recommendation._
 
 # References:
 
