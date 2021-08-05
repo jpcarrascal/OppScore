@@ -1,0 +1,228 @@
+id,outcome,importance,satisfaction
+P01,Getting out of bed,5,4
+P02,Getting out of bed,5,5
+P03,Getting out of bed,5,5
+P04,Getting out of bed,5,5
+P05,Getting out of bed,4,3
+P06,Getting out of bed,5,4
+P07,Getting out of bed,5,5
+P08,Getting out of bed,4,
+P09,Getting out of bed,5,5
+P10,Getting out of bed,3,5
+P11,Getting out of bed,5,5
+P12,Getting out of bed,5,4
+P13,Getting out of bed,5,4
+P14,Getting out of bed,5,5
+P15,Getting out of bed,4,
+P16,Getting out of bed,5,4
+P17,Getting out of bed,5,5
+P18,Getting out of bed,5,5
+P19,Getting out of bed,5,4
+P20,Getting out of bed,5,5
+P21,Getting out of bed,5,5
+P22,Getting out of bed,5,5
+P23,Getting out of bed,5,5
+P24,Getting out of bed,5,5
+P25,Getting out of bed,5,5
+P01,Getting submitted paper accepted,4,4
+P02,Getting submitted paper accepted,5,
+P03,Getting submitted paper accepted,4,5
+P04,Getting submitted paper accepted,3,4
+P05,Getting submitted paper accepted,5,5
+P06,Getting submitted paper accepted,5,4
+P07,Getting submitted paper accepted,3,3
+P08,Getting submitted paper accepted,5,5
+P09,Getting submitted paper accepted,5,5
+P10,Getting submitted paper accepted,5,4
+P11,Getting submitted paper accepted,4,3
+P12,Getting submitted paper accepted,5,5
+P13,Getting submitted paper accepted,1,2
+P14,Getting submitted paper accepted,1,
+P15,Getting submitted paper accepted,4,5
+P16,Getting submitted paper accepted,5,3
+P17,Getting submitted paper accepted,3,5
+P18,Getting submitted paper accepted,5,5
+P19,Getting submitted paper accepted,5,4
+P20,Getting submitted paper accepted,4,5
+P21,Getting submitted paper accepted,3,5
+P22,Getting submitted paper accepted,5,2
+P23,Getting submitted paper accepted,5,4
+P24,Getting submitted paper accepted,4,3
+P25,Getting submitted paper accepted,5,5
+P26,Getting submitted paper accepted,4,5
+P01,Completing homework,5,4
+P02,Completing homework,5,5
+P03,Completing homework,5,5
+P04,Completing homework,4,4
+P05,Completing homework,5,5
+P06,Completing homework,5,5
+P07,Completing homework,5,5
+P08,Completing homework,4,4
+P09,Completing homework,4,5
+P10,Completing homework,5,4
+P11,Completing homework,5,5
+P12,Completing homework,5,5
+P13,Completing homework,4,4
+P14,Completing homework,5,4
+P15,Completing homework,5,5
+P16,Completing homework,5,5
+P17,Completing homework,5,4
+P18,Completing homework,5,5
+P19,Completing homework,5,4
+P20,Completing homework,5,5
+P21,Completing homework,5,3
+P22,Completing homework,5,5
+P23,Completing homework,5,5
+P24,Completing homework,5,4
+P25,Completing homework,5,5
+P26,Completing homework,5,5
+P27,Completing homework,5,4
+P28,Completing homework,5,5
+P29,Completing homework,3,5
+P30,Completing homework,5,5
+P31,Completing homework,4,4
+P01,Fleeing from meetings,5,4
+P02,Fleeing from meetings,5,5
+P03,Fleeing from meetings,5,5
+P04,Fleeing from meetings,5,5
+P05,Fleeing from meetings,4,4
+P06,Fleeing from meetings,5,5
+P07,Fleeing from meetings,5,3
+P08,Fleeing from meetings,4,5
+P09,Fleeing from meetings,5,4
+P10,Fleeing from meetings,4,5
+P11,Fleeing from meetings,5,5
+P12,Fleeing from meetings,3,3
+P13,Fleeing from meetings,3,4
+P14,Fleeing from meetings,5,5
+P15,Fleeing from meetings,5,5
+P16,Fleeing from meetings,5,5
+P17,Fleeing from meetings,5,4
+P18,Fleeing from meetings,5,5
+P19,Fleeing from meetings,5,5
+P01,Having coffee,2,3
+P02,Having coffee,5,5
+P03,Having coffee,5,5
+P04,Having coffee,5,5
+P05,Having coffee,5,5
+P06,Having coffee,5,5
+P07,Having coffee,5,4
+P08,Having coffee,4,4
+P09,Having coffee,3,3
+P10,Having coffee,5,4
+P11,Having coffee,3,5
+P12,Having coffee,5,5
+P13,Having coffee,4,4
+P14,Having coffee,5,4
+P15,Having coffee,5,5
+P16,Having coffee,4,4
+P17,Having coffee,5,5
+P18,Having coffee,5,4
+P19,Having coffee,5,5
+P20,Having coffee,5,5
+P21,Having coffee,5,5
+P22,Having coffee,5,5
+P23,Having coffee,5,4
+P24,Having coffee,5,5
+P25,Having coffee,5,5
+P26,Having coffee,5,4
+P27,Having coffee,5,4
+P28,Having coffee,5,5
+P29,Having coffee,5,5
+P30,Having coffee,4,4
+P01,Discreet napping,2,2
+P02,Discreet napping,4,4
+P03,Discreet napping,5,4
+P04,Discreet napping,3,4
+P05,Discreet napping,5,4
+P06,Discreet napping,4,4
+P07,Discreet napping,5,4
+P08,Discreet napping,5,5
+P09,Discreet napping,5,5
+P10,Discreet napping,3,4
+P11,Discreet napping,4,2
+P12,Discreet napping,3,5
+P13,Discreet napping,5,3
+P14,Discreet napping,3,4
+P15,Discreet napping,1,4
+P16,Discreet napping,3,4
+P17,Discreet napping,3,3
+P18,Discreet napping,2,5
+P19,Discreet napping,2,1
+P20,Discreet napping,5,4
+P21,Discreet napping,5,5
+P22,Discreet napping,5,5
+P23,Discreet napping,4,4
+P01,Finding cheap food,2,3
+P02,Finding cheap food,4,3
+P03,Finding cheap food,5,4
+P04,Finding cheap food,5,4
+P05,Finding cheap food,4,3
+P06,Finding cheap food,4,3
+P07,Finding cheap food,5,3
+P08,Finding cheap food,4,3
+P09,Finding cheap food,3,3
+P10,Finding cheap food,3,5
+P11,Finding cheap food,5,4
+P12,Finding cheap food,4,4
+P13,Finding cheap food,5,3
+P14,Finding cheap food,4,3
+P15,Finding cheap food,5,3
+P16,Finding cheap food,4,2
+P17,Finding cheap food,4,3
+P18,Finding cheap food,3,4
+P19,Finding cheap food,5,3
+P20,Finding cheap food,4,3
+P21,Finding cheap food,4,3
+P22,Finding cheap food,5,5
+P23,Finding cheap food,3,3
+P24,Finding cheap food,5,5
+P25,Finding cheap food,3,5
+P26,Finding cheap food,3,2
+P27,Finding cheap food,5,4
+P28,Finding cheap food,5,5
+P29,Finding cheap food,4,4
+P01,Hiding from professors,5,4
+P02,Hiding from professors,5,5
+P03,Hiding from professors,5,5
+P04,Hiding from professors,5,3
+P05,Hiding from professors,5,5
+P06,Hiding from professors,1,4
+P07,Hiding from professors,4,4
+P08,Hiding from professors,4,4
+P09,Hiding from professors,4,5
+P10,Hiding from professors,5,3
+P01,Writing papers,3,4
+P02,Writing papers,5,5
+P03,Writing papers,5,5
+P04,Writing papers,3,4
+P05,Writing papers,4,3
+P06,Writing papers,5,5
+P07,Writing papers,5,4
+P08,Writing papers,4,5
+P09,Writing papers,5,5
+P10,Writing papers,5,5
+P11,Writing papers,2,4
+P12,Writing papers,5,4
+P13,Writing papers,3,3
+P14,Writing papers,3,3
+P15,Writing papers,5,5
+P16,Writing papers,5,4
+P17,Writing papers,4,1
+P18,Writing papers,5,4
+P19,Writing papers,2,2
+P20,Writing papers,5,5
+P21,Writing papers,3,5
+P01,Supervising undergrad students,2,3
+P02,Supervising undergrad students,2,3
+P03,Supervising undergrad students,1,1
+P04,Supervising undergrad students,5,5
+P05,Supervising undergrad students,4,5
+P06,Supervising undergrad students,2,3
+P01,Passing exams,5,1
+P02,Passing exams,4,2
+P03,Passing exams,3,2
+P04,Passing exams,5,3
+P05,Passing exams,4,2
+P06,Passing exams,5,3
+P07,Passing exams,4,4

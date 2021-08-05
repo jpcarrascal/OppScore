@@ -26,7 +26,8 @@ filename <- "sampledata.csv"
 outcomeName <- "outcome"
 impName <- "importance"
 satName <- "satisfaction"
-
+# Rows with empty values will be excluded from the calculations:
+removeMissing <- TRUE
 
 # functions:
 op_score <- function(imp, sat) {
@@ -78,7 +79,7 @@ round_df <- function(x, digits) {
 inputData <- read.csv(filename, header = T, sep = ",", fileEncoding="UTF-8-BOM")
 N1 <- dim(inputData)[1]
 # remove incomplete rows:
-inputData <- inputData[rowSums(is.na(inputData)) == 0,]
+if(removeMissing) inputData <- inputData[rowSums(is.na(inputData)) == 0,]
 missing <- N1 - dim(inputData)[1]
 inputData <- inputData[c(outcomeName,impName, satName)]
 colnames(inputData) <- c("outcome","importance","satisfaction")
@@ -88,7 +89,7 @@ values <- merge(x = imp, y = sat, by = "outcome", all = TRUE)
 values$oppscore = mapply(op_score, values$importance, values$satisfaction)
 values <- values[order(-values$oppscore),]
 rownames(values) <- NULL
-if(missing > 0) writeLines(paste(missing,"missing values found. Rows removed."))
+if(missing > 0) writeLines(paste(missing,"missing values found. Rows excluded from calculations."))
 print(round_df(values, 2))
 plotOppScore(values)
 
