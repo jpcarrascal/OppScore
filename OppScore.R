@@ -22,7 +22,7 @@ midpoint <- 3
 
 # File and column names:
 
-filename <- "sampledata2.csv"
+filename <- "sampledata.csv"
 outcomeName <- "outcome"
 impName <- "importance"
 satName <- "satisfaction"
