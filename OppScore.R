@@ -22,7 +22,7 @@ midpoint <- 3
 
 # File and column names:
 
-filename <- "sampledata.csv"
+filename <- "sampledata2.csv"
 outcomeName <- "outcome"
 impName <- "importance"
 satName <- "satisfaction"
@@ -76,6 +76,10 @@ round_df <- function(x, digits) {
 # Read the data and run the functions:
 
 inputData <- read.csv(filename, header = T, sep = ",", fileEncoding="UTF-8-BOM")
+N1 <- dim(inputData)[1]
+# remove incomplete rows:
+inputData <- inputData[rowSums(is.na(inputData)) == 0,]
+missing <- N1 - dim(inputData)[1]
 inputData <- inputData[c(outcomeName,impName, satName)]
 colnames(inputData) <- c("outcome","importance","satisfaction")
 imp <- aggregate(importance~outcome, inputData, count_positives, midpoint=midpoint)
@@ -84,6 +88,7 @@ values <- merge(x = imp, y = sat, by = "outcome", all = TRUE)
 values$oppscore = mapply(op_score, values$importance, values$satisfaction)
 values <- values[order(-values$oppscore),]
 rownames(values) <- NULL
+if(missing > 0) writeLines(paste(missing,"missing values found. Rows removed."))
 print(round_df(values, 2))
 plotOppScore(values)
 
