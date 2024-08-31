@@ -1,5 +1,7 @@
 ﻿# OppScore
 
+_Note: There is also a friendly web version runnin here: https://jpcarrascal.com/OppScoreWeb/ (repo: https://github.com/jpcarrascal/OppScoreWeb)_
+
 Yet another R script for calculating opportunity scores and plotting the Opportunity Map / Landscape.
 
 __UPDATE: OppScore calculation was yielding wrong values! It's fixed now.__
